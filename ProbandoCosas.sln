@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProbandoCosas", "ProbandoCosas\ProbandoCosas.csproj", "{8B6BBAE2-9A29-4D8E-92E2-F544B35A63EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1_Presentation", "1.1_Presentation", "{900AFC56-10E2-4E7D-903C-5EB7D76BFBCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 DistributionServices_ExternalS", "1.2 DistributionServices_ExternalS", "{56902319-AA34-45BC-BAB0-BB0AD9DC0A1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 ServiceLibrary_Manager", "2.1 ServiceLibrary_Manager", "{6CD49DA6-9876-421C-A694-B26A30723615}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 Domain_Core", "3.1 Domain_Core", "{D9B162A8-DE14-410B-9A4A-D4F78237C6B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 Infrastructure", "4.1 Infrastructure", "{23641AA9-A8F3-46DA-878C-E7A1CF357308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProbandoCosas.APIStock", "ProbandoCosas.APIStock\ProbandoCosas.APIStock.csproj", "{AC60F154-5A03-45F3-A2D8-DE24C98EA5CF}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ProbandoCosas.SOAP.Price", "ProbandoCosas.SOAP.Price\", "{B9850056-98DA-4291-8C8C-21060AC81D44}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55209"
+		Debug.AspNetCompiler.PhysicalPath = "ProbandoCosas.SOAP.Price\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55209\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55209"
+		Release.AspNetCompiler.PhysicalPath = "ProbandoCosas.SOAP.Price\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55209\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55209"
+		SlnRelativePath = "ProbandoCosas.SOAP.Price\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProbancoCosas.ServiceLibrary", "ProbancoCosas.ServiceLibrary\ProbancoCosas.ServiceLibrary.csproj", "{F51A374C-53BE-42DF-86B2-42E7C7DE2748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProbandoCosas.Core", "ProbandoCosas.Core\ProbandoCosas.Core.csproj", "{2B68F16D-13DF-4828-B490-AB1401ED0009}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProbandoCosas.Infra", "ProbandoCosas.Infra\ProbandoCosas.Infra.csproj", "{C6742E8C-3EC3-4081-AE37-5CF74CDB6760}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B6BBAE2-9A29-4D8E-92E2-F544B35A63EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6BBAE2-9A29-4D8E-92E2-F544B35A63EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6BBAE2-9A29-4D8E-92E2-F544B35A63EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6BBAE2-9A29-4D8E-92E2-F544B35A63EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC60F154-5A03-45F3-A2D8-DE24C98EA5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC60F154-5A03-45F3-A2D8-DE24C98EA5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC60F154-5A03-45F3-A2D8-DE24C98EA5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC60F154-5A03-45F3-A2D8-DE24C98EA5CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9850056-98DA-4291-8C8C-21060AC81D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9850056-98DA-4291-8C8C-21060AC81D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9850056-98DA-4291-8C8C-21060AC81D44}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9850056-98DA-4291-8C8C-21060AC81D44}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F51A374C-53BE-42DF-86B2-42E7C7DE2748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F51A374C-53BE-42DF-86B2-42E7C7DE2748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F51A374C-53BE-42DF-86B2-42E7C7DE2748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F51A374C-53BE-42DF-86B2-42E7C7DE2748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B68F16D-13DF-4828-B490-AB1401ED0009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B68F16D-13DF-4828-B490-AB1401ED0009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B68F16D-13DF-4828-B490-AB1401ED0009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B68F16D-13DF-4828-B490-AB1401ED0009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6742E8C-3EC3-4081-AE37-5CF74CDB6760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6742E8C-3EC3-4081-AE37-5CF74CDB6760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6742E8C-3EC3-4081-AE37-5CF74CDB6760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6742E8C-3EC3-4081-AE37-5CF74CDB6760}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B6BBAE2-9A29-4D8E-92E2-F544B35A63EB} = {900AFC56-10E2-4E7D-903C-5EB7D76BFBCD}
+		{AC60F154-5A03-45F3-A2D8-DE24C98EA5CF} = {56902319-AA34-45BC-BAB0-BB0AD9DC0A1A}
+		{B9850056-98DA-4291-8C8C-21060AC81D44} = {56902319-AA34-45BC-BAB0-BB0AD9DC0A1A}
+		{F51A374C-53BE-42DF-86B2-42E7C7DE2748} = {6CD49DA6-9876-421C-A694-B26A30723615}
+		{2B68F16D-13DF-4828-B490-AB1401ED0009} = {D9B162A8-DE14-410B-9A4A-D4F78237C6B8}
+		{C6742E8C-3EC3-4081-AE37-5CF74CDB6760} = {23641AA9-A8F3-46DA-878C-E7A1CF357308}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEAE5D3E-7A74-40BE-805F-F6CB9F90DA16}
+	EndGlobalSection
+EndGlobal
